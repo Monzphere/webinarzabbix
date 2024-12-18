@@ -1,21 +1,21 @@
 {
     "manifest_version": 2.0,
-    "id": "webinar",
-    "name": "Webinar",
-    "version": "1.0",
-    "namespace": "Webinar",
-    "description": "Webinar Monzphere.",
+    "id": "location-map",
+    "name": "Location Map",
+    "version": "2.0",
+    "namespace": "LocationMap",
+    "description": "Visualização de hosts em mapa geográfico, e um resumo de hosts por localidade",
     "author": "Monzphere",
     "actions": {
-        "webinar.view": {
-            "class": "WebinarView",
-            "view": "webinar.view"
+        "map.view": {
+            "class": "MapView",
+            "view": "map.view"
         }
     },
     "assets": {
+        "js": ["map-viewer.js" ],
         "css": [
-            "webinar.css"
+            "map-viewer.css"
         ]
     }
-    
 } 

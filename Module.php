@@ -1,5 +1,5 @@
 <?php
-namespace Modules\Webinar;
+namespace Modules\LocationMap;
 use Zabbix\Core\CModule,
     APP,
     CMenuItem;
@@ -10,7 +10,7 @@ class Module extends CModule {
             ->findOrAdd(_('Monitoring'))
             ->getSubmenu()
             ->insertAfter(_('Discovery'),
-                (new CMenuItem(_('CPU Value')))->setAction('webinar.view')
+                (new CMenuItem(_('Location Map')))->setAction('map.view')
             );
     }
 }
