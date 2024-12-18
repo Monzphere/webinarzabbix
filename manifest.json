@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2.0,
+    "id": "webinar",
+    "name": "Webinar",
+    "version": "1.0",
+    "namespace": "Webinar",
+    "description": "Webinar Monzphere.",
+    "author": "Monzphere",
+    "actions": {
+        "webinar.view": {
+            "class": "WebinarView",
+            "view": "webinar.view"
+        }
+    },
+    "assets": {
+        "css": [
+            "webinar.css"
+        ]
+    }
+    
+} 
